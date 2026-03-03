@@ -7,7 +7,7 @@ jobs:
         - uses: actions/checkout@v4
         - run: node index.js
         - run: |
-            if [-f index.js];then
+            if [ -f index.js ]; then
                 echo "great file found"
             else
                 echo "file not found"
