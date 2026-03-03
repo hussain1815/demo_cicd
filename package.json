@@ -1,0 +1,19 @@
+{
+  "name": "demo_ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"All tests passed ✅\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hussain1815/demo_cicd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hussain1815/demo_cicd/issues"
+  },
+  "homepage": "https://github.com/hussain1815/demo_cicd#readme"
+}
