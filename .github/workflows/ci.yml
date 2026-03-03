@@ -1,8 +1,15 @@
 name: ci demo
 on: push
 jobs:
-  helo:
+  another_test:
     runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@v4
         - run: node index.js
+        - run: |
+            if [-f index.js];then
+                echo "great file found"
+            else
+                echo "file not found"
+                exit 1
+            fi
